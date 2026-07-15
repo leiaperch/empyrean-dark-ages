@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Empyrean — The Dark Ages</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="scene" aria-hidden="true">
+    <div class="layer layer--far"></div>
+    <div class="layer layer--mid"></div>
+    <div class="layer layer--near"></div>
+    <div class="scrim"></div>
+  </div>
+
+  <main id="game">
+    <div id="passage" class="passage" aria-live="polite"></div>
+    <ul id="choices" class="choices"></ul>
+  </main>
+
+  <footer id="hud">
+    <span id="hud-tags" class="hud__tags"></span>
+    <button id="restart" class="hud__btn" type="button">Recommencer</button>
+  </footer>
+
+  <template id="tpl-paragraph"><p class="para"></p></template>
+  <template id="tpl-choice"><li class="choice"><button type="button" class="choice__btn"></button></li></template>
+
+  <script type="module" src="js/game.js"></script>
+</body>
+</html>

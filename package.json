@@ -1,0 +1,13 @@
+{
+  "name": "empyrean-dark-ages",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Jeu narratif à choix — griffonier de Poromiel (Ink + inkjs, lecteur web).",
+  "scripts": {
+    "build": "node build/compile.js",
+    "serve": "npx --yes serve web -l 8123"
+  },
+  "devDependencies": {
+    "inkjs": "^2.3.0"
+  }
+}
