@@ -23,8 +23,13 @@ Pour éditer l'histoire, modifie `ink/aire.ink` puis relance `npm run build`. L'
 
 ## Déployer
 
-Le dossier `web/` est un site statique autonome. Publie-le sur GitHub Pages, Vercel ou Netlify en indiquant `web` comme dossier de publication.
+Le dossier `web/` est un site statique autonome. Un workflow GitHub Actions (`.github/workflows/deploy.yml`) recompile l'ink et publie `web/` sur GitHub Pages à chaque push sur `main`. Le jeu se déploie aussi tel quel sur Vercel ou Netlify en indiquant `web` comme dossier de publication.
 
-## À propos
+## Univers et communauté
 
-Projet personnel de fiction interactive, situé dans l'univers RP The Empyrean, d'après Fourth Wing de Rebecca Yarros. Non commercial.
+Le jeu puise dans l'univers du serveur de jeu de rôle The Empyrean, The Dark Ages, d'après Fourth Wing de Rebecca Yarros.
+
+- Le wiki du serveur : https://the-empyrean-the-dark-ages.fandom.com/fr
+- Le Discord, dont je suis l'administrateur : https://discord.gg/Rey5uxN2F7
+
+Projet personnel de fiction interactive, non commercial.
